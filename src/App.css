@@ -41,8 +41,8 @@ button {
   width: auto;
   height: 40px;
   padding: 0 15px;
-  background-color: red;
-  color: white;
+  background-color: #ff0000 !important;
+  color: black;
   box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25);
   font-size: 14px;
   cursor: pointer;
@@ -54,5 +54,5 @@ button {
 }
 
 button:hover {
-  background-color: maroon;
+  background-color: maroon !important;
 }
