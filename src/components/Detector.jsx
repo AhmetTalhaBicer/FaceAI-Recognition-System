@@ -2,7 +2,7 @@
 import { useEffect, useRef } from "react";
 import Webcam from "react-webcam";
 import propTypes from "prop-types";
-import { dtConfig, config } from "../config";
+import { dtConfig, config } from "../config/config";
 import "@tensorflow/tfjs";
 
 const Detector = ({ isEnabled, modelLoader, draw }) => {
